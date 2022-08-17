@@ -12,7 +12,8 @@ pipeline {
             }
          }
         
-        stage('Check-Git-Secrets') {
+       /*
+       stage('Check-Git-Secrets') {
             steps {
              sh 'rm trufflehog* || true'
              sh 'docker pull gesellix/trufflehog'
@@ -20,6 +21,8 @@ pipeline {
 	     sh 'cat trufflehog'
             }
          }
+	 
+	 */
         
 /*	    
         stage('SCA') {
