@@ -12,7 +12,7 @@ pipeline {
             }
          }
         
-        */
+        /*
 	    stage('Check-Git-Secrets') {
             steps {
              sh 'rm trufflehog* || true'
@@ -21,7 +21,7 @@ pipeline {
 	     sh 'cat trufflehog'
             }
          }
-        /*
+        */
 /*	    
         stage('SCA') {
             steps {
